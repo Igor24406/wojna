@@ -1,0 +1,3 @@
+C:/Users/igorp/wojna/build/CMakeFiles/wojna.dir
+C:/Users/igorp/wojna/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/igorp/wojna/build/CMakeFiles/ZERO_CHECK.dir

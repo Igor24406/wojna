@@ -1,0 +1,10 @@
+^C:\USERS\IGORP\WOJNA\BUILD\CMAKEFILES\3E14E945F5EFC4DBA8E487983682D7A9\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/igorp/wojna -BC:/Users/igorp/wojna/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/igorp/wojna/build/Wojna.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
