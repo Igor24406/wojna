@@ -1,10 +1,5 @@
-/build/.vs
-
-
-
-
-
-
-
-
+build/
+.vs/
+*.exe
+*.pdb
 
